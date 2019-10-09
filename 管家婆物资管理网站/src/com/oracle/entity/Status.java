@@ -8,16 +8,16 @@ package com.oracle.entity;
  */
 public class Status {
 	private int status_id;// 状态ID
-	private String macerial_status;// 物质状态
+	private String material_status;// 物质状态
 
 	public Status() {
 		super();
 	}
 
-	public Status(int status_id, String macerial_status) {
+	public Status(int status_id, String material_status) {
 		super();
 		this.status_id = status_id;
-		this.macerial_status = macerial_status;
+		this.material_status = material_status;
 	}
 
 	public int getStatus_id() {
@@ -28,12 +28,12 @@ public class Status {
 		this.status_id = status_id;
 	}
 
-	public String getMacerial_status() {
-		return macerial_status;
+	public String getMaterial_status() {
+		return material_status;
 	}
 
-	public void setMacerial_status(String macerial_status) {
-		this.macerial_status = macerial_status;
+	public void setMaterial_status(String material_status) {
+		this.material_status = material_status;
 	}
 
 }
