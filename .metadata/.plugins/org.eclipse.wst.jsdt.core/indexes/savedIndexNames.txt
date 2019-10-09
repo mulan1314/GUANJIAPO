@@ -1,0 +1,4 @@
+INDEX VERSION 1.122+C:\Users\MyAdmin\Desktop\github\GUANJIAPO\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+11009163.index
+389753996.index
+1383389955.index
