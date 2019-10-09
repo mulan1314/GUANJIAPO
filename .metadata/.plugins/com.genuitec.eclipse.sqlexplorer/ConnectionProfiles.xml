@@ -2,10 +2,10 @@
     <Bean Class="com.genuitec.eclipse.sqlexplorer.utils.ConnectionProfile">
         <activate>false</activate>
         <driverIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
-            <string>-51f9f341:16daf4ed53d:-7fde</string>
+            <string>2546f43d:16daf8d6a04:-7fde</string>
         </driverIdentifier>
         <identifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
-            <string>-51f9f341:16daf4ed53d:-7fdd</string>
+            <string>2546f43d:16daf8d6a04:-7fdd</string>
         </identifier>
         <name>MyEclipse Derby</name>
         <password encryption="true">gFOjO/OmrJ8m4/rtM2cMIw==</password>

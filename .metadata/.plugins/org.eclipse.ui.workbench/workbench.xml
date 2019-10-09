@@ -31,55 +31,20 @@
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
-<page aggregateWorkingSetId="Aggregate for window 1570604235581" focus="true" label="Workspace - MyEclipse Java Enterprise">
+<page aggregateWorkingSetId="Aggregate for window 1570608337103" focus="true" label="Workspace - MyEclipse Java Enterprise">
 <editors>
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="4"/>
-<part id="5"/>
-<part id="6"/>
-<part id="7"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="one.java" partName="one.java" path="C:/Users/MyAdmin/Desktop/github/GUANJIAPO/管家婆物资管理网站/src/com/oracle/dao/one.java" title="one.java" tooltip="管家婆物资管理网站/src/com/oracle/dao/one.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/管家婆物资管理网站/src/com/oracle/dao/one.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="o.java" partName="o.java" path="C:/Users/MyAdmin/Desktop/github/GUANJIAPO/管家婆物资管理网站/src/com/oracle/dbutils/o.java" title="o.java" tooltip="管家婆物资管理网站/src/com/oracle/dbutils/o.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/管家婆物资管理网站/src/com/oracle/dbutils/o.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="o.java" partName="o.java" path="C:/Users/MyAdmin/Desktop/github/GUANJIAPO/管家婆物资管理网站/src/com/oracle/entity/o.java" title="o.java" tooltip="管家婆物资管理网站/src/com/oracle/entity/o.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/管家婆物资管理网站/src/com/oracle/entity/o.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="o.java" partName="o.java" path="C:/Users/MyAdmin/Desktop/github/GUANJIAPO/管家婆物资管理网站/src/com/oracle/filters/o.java" title="o.java" tooltip="管家婆物资管理网站/src/com/oracle/filters/o.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/管家婆物资管理网站/src/com/oracle/filters/o.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="o.java" partName="o.java" path="C:/Users/MyAdmin/Desktop/github/GUANJIAPO/管家婆物资管理网站/src/com/oracle/interfaces/o.java" title="o.java" tooltip="管家婆物资管理网站/src/com/oracle/interfaces/o.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/管家婆物资管理网站/src/com/oracle/interfaces/o.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="o.java" partName="o.java" path="C:/Users/MyAdmin/Desktop/github/GUANJIAPO/管家婆物资管理网站/src/com/oracle/listeners/o.java" title="o.java" tooltip="管家婆物资管理网站/src/com/oracle/listeners/o.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/管家婆物资管理网站/src/com/oracle/listeners/o.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="o.java" partName="o.java" path="C:/Users/MyAdmin/Desktop/github/GUANJIAPO/管家婆物资管理网站/src/com/oracle/service/o.java" title="o.java" tooltip="管家婆物资管理网站/src/com/oracle/service/o.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/管家婆物资管理网站/src/com/oracle/service/o.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="o.java" partName="o.java" path="C:/Users/MyAdmin/Desktop/github/GUANJIAPO/管家婆物资管理网站/src/com/oracle/servlet/o.java" title="o.java" tooltip="管家婆物资管理网站/src/com/oracle/servlet/o.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/管家婆物资管理网站/src/com/oracle/servlet/o.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="a.java" partName="a.java" path="C:/Users/MyAdmin/Desktop/github/GUANJIAPO/管家婆物资管理网站/src/com/oracle/entity/a.java" title="a.java" tooltip="管家婆物资管理网站/src/com/oracle/entity/a.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/管家婆物资管理网站/src/com/oracle/entity/a.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="53" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -90,6 +55,9 @@
 <viewState/>
 </view>
 <view id="org.eclipse.jdt.ui.TypeHierarchy" partName="Type Hierarchy"/>
+<view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
+<viewState/>
+</view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
@@ -232,14 +200,9 @@
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <view id="org.eclipse.jdt.ui.PackageExplorer"/>
 <view id="org.eclipse.jdt.ui.TypeHierarchy"/>
-<view id="uky.article.imageviewer.views.ImageView"/>
-<view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.ui.views.PropertySheet"/>
 <fastViewBars>
-<fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@72bcecc0" orientation="512" selectedTabId="org.eclipse.ui.views.ContentOutline" style="0">
-<fastViews>
-<view id="org.eclipse.ui.views.ContentOutline" ratio="0.3"/>
-</fastViews>
-</fastViewBar>
 <fastViewBar fastViewLocation="1024" id="bottom" orientation="256" selectedTabId="org.eclipse.ui.views.ProblemView" style="0">
 <fastViews>
 <view id="org.eclipse.ui.views.ProblemView" ratio="0.3"/>
@@ -247,6 +210,12 @@
 <view id="com.genuitec.eclipse.ui.HTMLView" ratio="0.85"/>
 <view id="org.eclipse.ui.console.ConsoleView" ratio="0.3"/>
 <view id="com.genuitec.eclipse.ast.deploy.core.serverview" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="16384" id="bottomleft" orientation="512" selectedTabId="uky.article.imageviewer.views.ImageView" style="0">
+<fastViews>
+<view id="uky.article.imageviewer.views.ImageView" ratio="0.3"/>
+<view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" ratio="0.3"/>
 </fastViews>
 </fastViewBar>
 </fastViewBars>
@@ -265,20 +234,24 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.2" ratioLeft="200" ratioRight="800" relationship="2" relative="cvslocation"/>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@72bcecc0" ratio="0.75" ratioLeft="600" ratioRight="200" relationship="2" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@5d44e0ad" ratio="0.75" ratioLeft="600" ratioRight="200" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@515b6c19" ratio="0.54953563" ratioLeft="355" ratioRight="291" relationship="4" relative="org.eclipse.ui.internal.ViewStack@72bcecc0">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@54faadb1" ratio="0.54953563" ratioLeft="355" ratioRight="291" relationship="4" relative="org.eclipse.ui.internal.ViewStack@5d44e0ad">
+<folder activePageID="org.eclipse.ui.views.PropertySheet" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
 </folder>
 </info>
 <info folder="true" part="bottom" ratio="0.74922603" ratioLeft="484" ratioRight="162" relationship="4" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="2">
+<folder appearance="2" expanded="0">
 <page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
 <page content="com.genuitec.eclipse.ui.HTMLView" label="LabelNotFound"/>
@@ -301,13 +274,10 @@
 </folder>
 </info>
 <info folder="true" part="bottomleft" ratio="0.54953563" ratioLeft="355" ratioRight="291" relationship="4" relative="topleft">
-<folder activePageID="uky.article.imageviewer.views.ImageView" appearance="2" expanded="2">
-<page content="uky.article.imageviewer.views.ImageView" label="Image Preview"/>
-<page content="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" label="Snippets"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-</presentation>
+<folder appearance="2" expanded="0">
+<page content="uky.article.imageviewer.views.ImageView" label="LabelNotFound"/>
+<page content="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </mainWindow>
@@ -317,37 +287,9 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/管家婆物资管理网站/src/com/oracle/dao/one.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/管家婆物资管理网站/src/com/oracle/dbutils/o.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/管家婆物资管理网站/src/com/oracle/entity/o.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/管家婆物资管理网站/src/com/oracle/filters/o.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/管家婆物资管理网站/src/com/oracle/interfaces/o.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/管家婆物资管理网站/src/com/oracle/listeners/o.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/管家婆物资管理网站/src/com/oracle/service/o.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/管家婆物资管理网站/src/com/oracle/servlet/o.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/管家婆物资管理网站/src/com/oracle/entity/a.java"/>
 </editors>
-<item historyLabel="one.java" index="0">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="o.java" index="1">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="o.java" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="o.java" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="o.java" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="o.java" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="o.java" index="6">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item active="true" historyLabel="o.java" index="7">
+<item active="true" historyLabel="a.java" index="0">
 <position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
@@ -356,8 +298,8 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
-<trimArea IMemento.internal.id="131072">
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@72bcecc0"/>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="bottomleft"/>
 </trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
@@ -371,29 +313,8 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="o.java" tooltip="管家婆物资管理网站/src/com/oracle/servlet/o.java">
-<persistable path="/管家婆物资管理网站/src/com/oracle/servlet/o.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="o.java" tooltip="管家婆物资管理网站/src/com/oracle/service/o.java">
-<persistable path="/管家婆物资管理网站/src/com/oracle/service/o.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="o.java" tooltip="管家婆物资管理网站/src/com/oracle/listeners/o.java">
-<persistable path="/管家婆物资管理网站/src/com/oracle/listeners/o.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="o.java" tooltip="管家婆物资管理网站/src/com/oracle/interfaces/o.java">
-<persistable path="/管家婆物资管理网站/src/com/oracle/interfaces/o.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="o.java" tooltip="管家婆物资管理网站/src/com/oracle/filters/o.java">
-<persistable path="/管家婆物资管理网站/src/com/oracle/filters/o.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="o.java" tooltip="管家婆物资管理网站/src/com/oracle/entity/o.java">
-<persistable path="/管家婆物资管理网站/src/com/oracle/entity/o.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="o.java" tooltip="管家婆物资管理网站/src/com/oracle/dbutils/o.java">
-<persistable path="/管家婆物资管理网站/src/com/oracle/dbutils/o.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="one.java" tooltip="管家婆物资管理网站/src/com/oracle/dao/one.java">
-<persistable path="/管家婆物资管理网站/src/com/oracle/dao/one.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="a.java" tooltip="管家婆物资管理网站/src/com/oracle/entity/a.java">
+<persistable path="/管家婆物资管理网站/src/com/oracle/entity/a.java"/>
 </file>
 </mruList>
 </workbench>
