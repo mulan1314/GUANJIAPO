@@ -23,10 +23,10 @@ public class DataSourceUtil {
 	static {	
 		
 		driverName = "com.mysql.jdbc.Driver";
-		url ="jdbc:mysql://localhost:3306/mysql?useUnicode=true&characterEncoding=utf-8";
+		url ="jdbc:mysql://localhost:3306/super?useUnicode=true&characterEncoding=utf-8";
 		
 		user="root";
-		pass ="super";
+		pass ="mysql";
 		dataSource.setDriverClassName(driverName);
 		dataSource.setUrl(url);
 		dataSource.setUsername(user);
