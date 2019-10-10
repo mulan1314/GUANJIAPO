@@ -8,6 +8,7 @@ package com.oracle.entity;
  */
 public class Record {
 
+	private int record_id;//记录id
 	private int material_id;// 物资 id
 	private String user_id;// 用户 id
 	private String loan_time;// 借出时间
@@ -18,14 +19,23 @@ public class Record {
 		super();
 	}
 
-	public Record(int material_id, String user_id, String loan_time,
-			String return_time, String record_reason) {
+	public Record(int record_id, int material_id, String user_id,
+			String loan_time, String return_time, String record_reason) {
 		super();
+		this.record_id = record_id;
 		this.material_id = material_id;
 		this.user_id = user_id;
 		this.loan_time = loan_time;
 		this.return_time = return_time;
 		this.record_reason = record_reason;
+	}
+
+	public int getRecord_id() {
+		return record_id;
+	}
+
+	public void setRecord_id(int record_id) {
+		this.record_id = record_id;
 	}
 
 	public int getMaterial_id() {
@@ -68,4 +78,5 @@ public class Record {
 		this.record_reason = record_reason;
 	}
 
+	
 }
