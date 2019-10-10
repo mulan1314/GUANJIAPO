@@ -8,10 +8,10 @@ package com.oracle.entity;
  */
 public class Material {
 	private int material_id;// 物资_id
-	private int type_id;// 物资类型
+	private Type type;// 物资类型
 	private String material_price;// 物资价值
 	private String material_introduct;// 物资简介
-	private int status_id;// 物资状态
+	private Status status;// 物资状态
 	private String material_picture;// 物资图片
 	private String material_name;// 物资名字
 	private String material_note;// 物资备注
@@ -21,15 +21,15 @@ public class Material {
 		super();
 	}
 
-	public Material(int material_id, int type_id, String material_price,
-			String material_introduct, int status_id, String material_picture,
+	public Material(int material_id, Type type, String material_price,
+			String material_introduct, Status status, String material_picture,
 			String material_name, String material_note, String material_address) {
 		super();
 		this.material_id = material_id;
-		this.type_id = type_id;
+		this.type = type;
 		this.material_price = material_price;
 		this.material_introduct = material_introduct;
-		this.status_id = status_id;
+		this.status = status;
 		this.material_picture = material_picture;
 		this.material_name = material_name;
 		this.material_note = material_note;
@@ -44,12 +44,12 @@ public class Material {
 		this.material_id = material_id;
 	}
 
-	public int getType_id() {
-		return type_id;
+	public Type getType() {
+		return type;
 	}
 
-	public void setType_id(int type_id) {
-		this.type_id = type_id;
+	public void setType(Type type) {
+		this.type = type;
 	}
 
 	public String getMaterial_price() {
@@ -68,12 +68,12 @@ public class Material {
 		this.material_introduct = material_introduct;
 	}
 
-	public int getStatus_id() {
-		return status_id;
+	public Status getStatus() {
+		return status;
 	}
 
-	public void setStatus_id(int status_id) {
-		this.status_id = status_id;
+	public void setStatus(Status status) {
+		this.status = status;
 	}
 
 	public String getMaterial_picture() {
