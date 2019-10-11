@@ -11,18 +11,22 @@ public class User {
 	private String user_password;// 用户密码
 	private String user_phone;// 用户手机号
 	private String user_email;// 用户邮箱
+	private String user_prc;// 图片
+	private String user_name;// 名字
 
 	public User() {
 		super();
 	}
 
 	public User(String user_id, String user_password, String user_phone,
-			String user_email) {
+			String user_email, String user_prc, String user_name) {
 		super();
 		this.user_id = user_id;
 		this.user_password = user_password;
 		this.user_phone = user_phone;
 		this.user_email = user_email;
+		this.user_prc = user_prc;
+		this.user_name = user_name;
 	}
 
 	public String getUser_id() {
@@ -55,6 +59,22 @@ public class User {
 
 	public void setUser_email(String user_email) {
 		this.user_email = user_email;
+	}
+
+	public String getUser_prc() {
+		return user_prc;
+	}
+
+	public void setUser_prc(String user_prc) {
+		this.user_prc = user_prc;
+	}
+
+	public String getUser_name() {
+		return user_name;
+	}
+
+	public void setUser_name(String user_name) {
+		this.user_name = user_name;
 	}
 
 }
