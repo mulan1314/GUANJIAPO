@@ -7,7 +7,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class DButils {
-	private static final String URL = "jdbc:mysql://localhost:3306/mysql";
+	private static final String URL = "jdbc:mysql://localhost:3306/super";
 	private static final String USER = "root";
 	private static final String PASSWORD = "mysql";
 
