@@ -9,10 +9,12 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
   <head>
-   
+   <style type="text/css">
+   		body {background: #E8E8E8} 定义网页背景色为灰色；
+   </style>
   </head>
   
- <body background="img/01.jpg">
+ <body>
 		
 	<!-- 导航栏 -->
 	<nav class="navbar navbar-default" role="navigation"
@@ -54,7 +56,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				
 				<div class="row clearfix">
 					<div class="col-md-4 column">
-						<ul class="list-unstyled"  style="margin-left: 150px;margin-top: 100px;">
+						<ul class="list-unstyled"  style="margin-left: 80px;margin-top: 100px;">
 							<li>
 								Lorem ipsum dolor sit amet
 							</li>
@@ -205,14 +207,14 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					</table>
 				</div>
 			</div>
-				<br><br><br><br><br><br><br><br><br><br><br><br>
+			<br>
 				<div class="row clearfix">
 					<div class="col-md-4 column">
 					</div>
 					
 					<center>
 						
-					<div class="col-md-8 column">
+					<div class="col-md-3 column">
 						<a href="#">首页</a>
 						<a href="#">尾页</a>
 					</div>

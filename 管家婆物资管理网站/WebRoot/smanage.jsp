@@ -33,6 +33,7 @@
 			上下边距0左右居中
 			背景颜色白色透明度50%
 			*/
+			body {background: #E8E8E8} 定义网页背景色为灰色；
 #divOne {
 	width: 1200px;
 	height: 580px;
@@ -42,7 +43,7 @@
 }
 #divTwo{
 	position: absolute;
-	bottom: 100px;
+	bottom: 90px;
 	left: 0;
 	right: 0;
 	margin-left: auto;
@@ -56,7 +57,7 @@
 			*/
 #divThree {
 	position: absolute;
-	bottom: 150px;
+	bottom: 110px;
 	left: 0;
 	right: 0;
 	margin-left: auto;
@@ -65,7 +66,7 @@
 </style>
 </head>
 
-<body background="img/01.jpg">
+<body >
 	<!-- 导航栏 -->
 <nav class="navbar navbar-inverse" role="navigation">
 		<div class="container-fluid">
@@ -182,8 +183,6 @@
 		<div id="divTwo">
 		<center>
 			<button class="btn btn-primary">刷新列表</button>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 			<button class="btn btn-default" data-toggle="modal"
 					data-target="#myModal">生成工号</button>
 					</center>
@@ -223,13 +222,13 @@
 	<!--页面div结束-->
 	<div>
 	<!--Footer-->
-	<footer class="inner-footer" style="background: #000000;">
+	<footer class="inner-footer" style="background: #E8E8E8;">
 		<div class="container">
 			<p class="text-muted footer-nav" style="color: #FFFFFF;">
-				<a href="" style="color: #FFFFFF;">联系我们|</a> <a href="#"
-					style="color: #FFFFFF;">|新闻中心|</a> <a href="#"
-					style="color: #FFFFFF;">|网站地图|</a> <a href="#"
-					style="color: #FFFFFF;">|站长统计|</a>
+				<a href="" style="color: #000000;">联系我们|</a> <a href="#"
+					style="color: #000000;">|新闻中心|</a> <a href="#"
+					style="color: #000000;">|网站地图|</a> <a href="#"
+					style="color: #000000;">|站长统计|</a>
 			</p>
 			<HR style="FILTER: alpha(opacity=100,finishopacity=0,style=1)"
 				width="100%" color=#987cb9 SIZE=3>
@@ -237,19 +236,19 @@
 		<div class="line"></div>
 		<div class="container">
 			<div class="text-muted copyright">
-				<span style="color: #FFFFFF;"> Copyright &copy;
+				<span style="color: #000000;"> Copyright &copy;
 					2016&nbsp;&nbsp;亚洲管家婆技术有限公司 <a href="# target="
-					_blank" style="color: #FFFFFF;">粤ICP备09131601号-3</a> </span>
+					_blank" style="color: #000000;">粤ICP备09131601号-3</a> </span>
 				<div class="dropdown pull-right hidden-xs hidden-sm">
-					<button id="dLabel" type="button" data-toggle="dropdown"
+					<button style="color: #000000;width: 158px" id="dLabel" type="button" data-toggle="dropdown"
 						aria-haspopup="true" aria-expanded="false">
-						友情链接/Links <span class="caret"></span>
+						友情链接/Links<span class="caret"></span>
 					</button>
 					<ul class="dropdown-menu" aria-labelledby="dLabel">
 						&nbsp;
-						<strong><a href="http://www.merway.cn/" target="_blank">仓库管理软件</a>
-							<a href="http://www.merway.cn/" target="_blank">ERP条码系统</a> <a
-							href="http://www.merway.cn/" target="_blank">GJP</a>
+						<strong><a href="http://www.merway.cn/" target="_blank">仓库管理软件</a></br>
+								<a href="http://www.merway.cn/" target="_blank">ERP条码系统</a></br>
+								<a href="http://www.merway.cn/" target="_blank">GJP</a>
 						</strong>
 					</ul>
 				</div>

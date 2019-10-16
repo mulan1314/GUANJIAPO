@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-module
   type="WEB"
-  name="管家婆物资管理网站"
+  name="GJP"
   id="myeclipse.1570608433983"
   context-root="/GuanJiaPo"
   j2ee-spec="5.0"
-  archive="管家婆物资管理网站.war">
+  archive="GJP.war">
   <attributes>
     <attribute name="webrootdir" value="WebRoot" />
   </attributes>
