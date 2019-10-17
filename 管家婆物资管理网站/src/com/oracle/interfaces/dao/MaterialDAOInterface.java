@@ -2,18 +2,30 @@ package com.oracle.interfaces.dao;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
 
 import javax.faces.component.UpdateModelException;
 
 import com.oracle.entity.Material;
+import com.oracle.entity.Status;
 
 public interface MaterialDAOInterface {
+	
 	/**
 	 * 查询所有的物资
 	 * 
 	 * @return 物资集合
+	 * @throws SQLException 
 	 */
-	public ArrayList<Material> findAllMaterial();
+	public List<Map<String, Object>> findAllMaterial() throws SQLException;
+	/**
+	 * 模糊查询物资
+	 * @param name 模糊的内容
+	 * @return 返回查询的结果
+	 * @throws SQLException 
+	 */
+	public List<Material> findLinkMaterial(String name) throws SQLException;
 
 	/**
 	 * 根据物资的id查询物资
@@ -30,8 +42,9 @@ public interface MaterialDAOInterface {
 	 * @param type_id
 	 *            类型id
 	 * @return 物资集合
+	 * @throws SQLException 
 	 */
-	public ArrayList<Material> findMaterialByType(int type_id);
+	public List<Map<String, Object>> findMaterialByType(int type_id) throws SQLException;
 
 	/**
 	 * 根据物资的状态来查询物资
@@ -89,9 +102,10 @@ public interface MaterialDAOInterface {
 	 * 根据物资类型来删除物资
 	 * 
 	 * @param type_id
+	 * @throws SQLException 
 	 * @returns
 	 */
-	public int deleteMaterialByType(int type_id);
+	public int deleteMaterialByType(int type_id) throws SQLException;
 
 	/**
 	 * 根据物资名字来删除物资
@@ -129,6 +143,7 @@ public interface MaterialDAOInterface {
 	 * @param material
 	 *            物资对象
 	 * @return
+	 * @throws SQLException 
 	 */
-	public int addMaterial(Material material);
+	public int addMaterial(Material material) throws SQLException;
 }

@@ -20,6 +20,10 @@ public class Type {
 		this.material_type = material_type;
 	}
 
+	public Type(String type_id) {
+		this.type_id=Integer.parseInt(type_id) ;
+	}
+
 	public int getType_id() {
 		return type_id;
 	}

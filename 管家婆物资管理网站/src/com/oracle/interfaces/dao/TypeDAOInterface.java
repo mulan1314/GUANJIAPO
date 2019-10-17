@@ -1,5 +1,6 @@
 package com.oracle.interfaces.dao;
 
+import java.sql.SQLException;
 import java.util.ArrayList;
 
 import com.oracle.entity.Type;
@@ -9,8 +10,9 @@ public interface TypeDAOInterface {
 	 * 查询所有的物资类型
 	 * 
 	 * @return 物资类型集合
+	 * @throws SQLException 
 	 */
-	public ArrayList<Type> findAllType();
+	public ArrayList<Type> findAllType() throws SQLException;
 
 	/**
 	 * 删除物资类型

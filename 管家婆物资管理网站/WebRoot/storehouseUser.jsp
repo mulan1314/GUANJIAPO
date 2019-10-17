@@ -11,6 +11,7 @@
 <script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
+<<<<<<< HEAD
 <head>
 <script type="text/javascript">
 function edit1() {
@@ -59,11 +60,28 @@ function edit1() {
 
 
 
+=======
+<<<<<<< HEAD
+<head>
+>>>>>>> 7aae61af061f9b2d2d5818c28e6bcc1706e52159
 
 </head>
 
 <body background="img/01.jpg">
 
+<<<<<<< HEAD
+=======
+=======
+  <head>
+   <style type="text/css">
+   		body {background: #E8E8E8} 定义网页背景色为灰色；
+   </style>
+  </head>
+  
+ <body>
+		
+>>>>>>> 201762bed1dd65891c41124006a4c485e77c7bb5
+>>>>>>> 7aae61af061f9b2d2d5818c28e6bcc1706e52159
 	<!-- 导航栏 -->
 	<nav class="navbar navbar-default" role="navigation"
 		style="height: 70px">
@@ -121,11 +139,59 @@ function edit1() {
 
 			<div class="col-md-8 column">
 				<div class="row clearfix">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 7aae61af061f9b2d2d5818c28e6bcc1706e52159
 					<div class="col-md-12 column" style="margin-left: 200px;">
 
 						<form class="navbar-form navbar-left" role="search">
 							<div class="form-group">
 								<input type="text" class="form-control" />
+<<<<<<< HEAD
+=======
+=======
+					<div class="col-md-4 column">
+						<ul class="list-unstyled"  style="margin-left: 80px;margin-top: 100px;">
+							<li>
+								Lorem ipsum dolor sit amet
+							</li>
+							<li>
+								Consectetur adipiscing elit
+							</li>
+							<li>
+								Integer molestie lorem at massa
+							</li>
+							<li>
+								Facilisis in pretium nisl aliquet
+							</li>
+							<li>
+								Nulla volutpat aliquam velit
+							</li>
+							<li>
+								Faucibus porta lacus fringilla vel
+							</li>
+							<li>
+								Aenean sit amet erat nunc
+							</li>
+							<li>
+								Eget porttitor lorem
+							</li>
+						</ul>
+					</div>
+					
+					<div class="col-md-8 column">
+						<div class="row clearfix">
+							<div class="col-md-12 column"style="margin-left: 200px;">
+							
+								<form class="navbar-form navbar-left" role="search">
+									<div class="form-group">
+										<input type="text" class="form-control" />
+									</div> <button type="submit" class="btn btn-default">查询</button>
+								</form>
+								
+>>>>>>> 201762bed1dd65891c41124006a4c485e77c7bb5
+>>>>>>> 7aae61af061f9b2d2d5818c28e6bcc1706e52159
 							</div>
 							<button type="submit" class="btn btn-default">查询</button>
 						</form>
@@ -133,7 +199,16 @@ function edit1() {
 					</div>
 
 				</div>
+<<<<<<< HEAD
 				<!-- 数据显示表格 -->
+=======
+<<<<<<< HEAD
+
+=======
+			</div>
+			<br>
+>>>>>>> 201762bed1dd65891c41124006a4c485e77c7bb5
+>>>>>>> 7aae61af061f9b2d2d5818c28e6bcc1706e52159
 				<div class="row clearfix">
 					<div class="col-md-12 column">
 						<table class="table">
@@ -141,12 +216,17 @@ function edit1() {
 								<tr>
 									<th>编号</th>
 									<th>产品</th>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7aae61af061f9b2d2d5818c28e6bcc1706e52159
 									<th>状态</th>
 									<th>借</th>
 
 								</tr>
 							</thead>
 							<tbody>
+<<<<<<< HEAD
 								<c:forEach items="${MList }" var="ml">
 									<tr>
 										<td>${ml.material_id }</td>
@@ -213,21 +293,111 @@ function edit1() {
 
 									</tr>
 								</c:forEach>
+=======
+								<tr>
+									<td>1</td>
+									<td>TB - Monthly</td>
+
+									<td>Default</td>
+
+									<td><span class="glyphicon glyphicon-share-alt"> </span></td>
+									<td><span class="glyphicon glyphicon-trash"> </span></td>
+								</tr>
+								<tr class="success">
+									<td>1</td>
+									<td>TB - Monthly</td>
+
+									<td>Approved</td>
+									<td><span class="glyphicon glyphicon-share-alt"> </span></td>
+
+								</tr>
+								<tr class="error">
+									<td>2</td>
+									<td>TB - Monthly</td>
+
+									<td>Declined</td>
+									<td><span class="glyphicon glyphicon-share-alt"> </span></td>
+
+								</tr>
+								<tr class="warning">
+									<td>3</td>
+									<td>TB - Monthly</td>
+
+									<td>Pending</td>
+									<td><span class="glyphicon glyphicon-share-alt"> </span></td>
+
+								</tr>
+								<tr class="info">
+									<td>4</td>
+									<td>TB - Monthly</td>
+
+									<td>Call in to confirm</td>
+									<td><span class="glyphicon glyphicon-share-alt"> </span></td>
+
+								</tr>
+>>>>>>> 7aae61af061f9b2d2d5818c28e6bcc1706e52159
 							</tbody>
 						</table>
 					</div>
 				</div>
+<<<<<<< HEAD
 				<!-- 数据显示表格结束 -->
 				<br> <br> <br> <br> <br> <br> <br>
 				<br> <br> <br> <br> <br>
+=======
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+>>>>>>> 7aae61af061f9b2d2d5818c28e6bcc1706e52159
 				<div class="row clearfix">
 					<div class="col-md-4 column"></div>
 
 					<center>
+<<<<<<< HEAD
 
 						<div class="col-md-8 column">
 							<a href="#">首页</a> <a href="#">尾页</a>
 						</div>
+=======
+<<<<<<< HEAD
+
+						<div class="col-md-8 column">
+
+							<ul class="pagination">
+								<li><a href="#">&laquo;</a>
+								</li>
+								<li class="active"><a href="#">1</a>
+								</li>
+								<li class="disabled"><a href="#">2</a>
+								</li>
+								<li><a href="#">3</a>
+								</li>
+								<li><a href="#">4</a>
+								</li>
+								<li><a href="#">5</a>
+								</li>
+								<li><a href="#">&raquo;</a>
+								</li>
+							</ul>
+
+						</div>
+=======
+						
+					<div class="col-md-3 column">
+						<a href="#">首页</a>
+						<a href="#">尾页</a>
+					</div>
+>>>>>>> 201762bed1dd65891c41124006a4c485e77c7bb5
+>>>>>>> 7aae61af061f9b2d2d5818c28e6bcc1706e52159
 					</center>
 				</div>
 			</div>

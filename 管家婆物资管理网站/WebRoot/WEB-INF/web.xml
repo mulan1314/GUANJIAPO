@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <web-app version="2.5" 
 	xmlns="http://java.sun.com/xml/ns/javaee" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
@@ -17,28 +18,60 @@
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>ForgetServlet</servlet-name>
     <servlet-class>com.oracle.servlet.ForgetServlet</servlet-class>
+=======
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <display-name></display-name>
+<<<<<<< HEAD
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MStatusServlet</servlet-name>
+    <servlet-class>com.oracle.servlet.MStatusServlet</servlet-class>
   </servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MaterialDeleteServlet</servlet-name>
+    <servlet-class>com.oracle.servlet.MaterialDeleteServlet</servlet-class>
+>>>>>>> 7aae61af061f9b2d2d5818c28e6bcc1706e52159
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+<<<<<<< HEAD
     <servlet-name>ForgetsServlet</servlet-name>
     <servlet-class>com.oracle.servlet.ForgetsServlet</servlet-class>
+=======
+    <servlet-name>MStatusTypeServlet</servlet-name>
+    <servlet-class>com.oracle.servlet.MStatusTypeServlet</servlet-class>
+>>>>>>> 7aae61af061f9b2d2d5818c28e6bcc1706e52159
   </servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
+<<<<<<< HEAD
     <servlet-name>MaterialStatusServlet</servlet-name>
     <servlet-class>com.oracle.servlet.MaterialStatusServlet</servlet-class>
+=======
+    <servlet-name>addMaterialServlet</servlet-name>
+    <servlet-class>com.oracle.servlet.addMaterialServlet</servlet-class>
+>>>>>>> 7aae61af061f9b2d2d5818c28e6bcc1706e52159
   </servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
+<<<<<<< HEAD
     <servlet-name>ManagePageServlet</servlet-name>
     <servlet-class>com.oracle.servlet.ManagePageServlet</servlet-class>
+=======
+    <servlet-name>MStatusLinkServlet</servlet-name>
+    <servlet-class>com.oracle.servlet.MStatusLinkServlet</servlet-class>
+>>>>>>> 7aae61af061f9b2d2d5818c28e6bcc1706e52159
   </servlet>
 
 
 
+<<<<<<< HEAD
 <filter>
 <filter-name>FiterLogin</filter-name>
 <filter-class>com.oracle.filters.FiterLogin</filter-class>
@@ -73,3 +106,30 @@
     <url-pattern>/page</url-pattern>
   </servlet-mapping>	
 </web-app>
+=======
+
+
+  <servlet-mapping>
+    <servlet-name>MStatusServlet</servlet-name>
+    <url-pattern>/MStatusServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MaterialDeleteServlet</servlet-name>
+    <url-pattern>/MaterialDeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MStatusTypeServlet</servlet-name>
+    <url-pattern>/MStatusTypeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addMaterialServlet</servlet-name>
+    <url-pattern>/addMaterialServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MStatusLinkServlet</servlet-name>
+    <url-pattern>/MStatusLinkServlet</url-pattern>
+  </servlet-mapping>
+=======
+>>>>>>> 201762bed1dd65891c41124006a4c485e77c7bb5
+</web-app>
+>>>>>>> 7aae61af061f9b2d2d5818c28e6bcc1706e52159
