@@ -11,12 +11,23 @@
 <script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
+<<<<<<< HEAD
 <head>
 
 </head>
 
 <body background="img/01.jpg">
 
+=======
+  <head>
+   <style type="text/css">
+   		body {background: #E8E8E8} 定义网页背景色为灰色；
+   </style>
+  </head>
+  
+ <body>
+		
+>>>>>>> 201762bed1dd65891c41124006a4c485e77c7bb5
 	<!-- 导航栏 -->
 	<nav class="navbar navbar-default" role="navigation"
 		style="height: 70px">
@@ -74,11 +85,53 @@
 
 			<div class="col-md-8 column">
 				<div class="row clearfix">
+<<<<<<< HEAD
 					<div class="col-md-12 column" style="margin-left: 200px;">
 
 						<form class="navbar-form navbar-left" role="search">
 							<div class="form-group">
 								<input type="text" class="form-control" />
+=======
+					<div class="col-md-4 column">
+						<ul class="list-unstyled"  style="margin-left: 80px;margin-top: 100px;">
+							<li>
+								Lorem ipsum dolor sit amet
+							</li>
+							<li>
+								Consectetur adipiscing elit
+							</li>
+							<li>
+								Integer molestie lorem at massa
+							</li>
+							<li>
+								Facilisis in pretium nisl aliquet
+							</li>
+							<li>
+								Nulla volutpat aliquam velit
+							</li>
+							<li>
+								Faucibus porta lacus fringilla vel
+							</li>
+							<li>
+								Aenean sit amet erat nunc
+							</li>
+							<li>
+								Eget porttitor lorem
+							</li>
+						</ul>
+					</div>
+					
+					<div class="col-md-8 column">
+						<div class="row clearfix">
+							<div class="col-md-12 column"style="margin-left: 200px;">
+							
+								<form class="navbar-form navbar-left" role="search">
+									<div class="form-group">
+										<input type="text" class="form-control" />
+									</div> <button type="submit" class="btn btn-default">查询</button>
+								</form>
+								
+>>>>>>> 201762bed1dd65891c41124006a4c485e77c7bb5
 							</div>
 							<button type="submit" class="btn btn-default">查询</button>
 						</form>
@@ -86,7 +139,12 @@
 					</div>
 
 				</div>
+<<<<<<< HEAD
 
+=======
+			</div>
+			<br>
+>>>>>>> 201762bed1dd65891c41124006a4c485e77c7bb5
 				<div class="row clearfix">
 					<div class="col-md-12 column">
 						<table class="table">
@@ -162,6 +220,7 @@
 					<div class="col-md-4 column"></div>
 
 					<center>
+<<<<<<< HEAD
 
 						<div class="col-md-8 column">
 
@@ -183,6 +242,13 @@
 							</ul>
 
 						</div>
+=======
+						
+					<div class="col-md-3 column">
+						<a href="#">首页</a>
+						<a href="#">尾页</a>
+					</div>
+>>>>>>> 201762bed1dd65891c41124006a4c485e77c7bb5
 					</center>
 				</div>
 			</div>

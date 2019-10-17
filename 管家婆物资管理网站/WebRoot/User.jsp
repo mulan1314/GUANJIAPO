@@ -9,12 +9,10 @@
 <%@ page isELIgnored="false"%>
 <html>
 <head>
-<head>
 <title>管家婆</title>
 <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
-</head>
 </head>
 <body style="background: url(img/f.png);">
 	<!-- 导航栏 -->
@@ -52,7 +50,7 @@
 
 	<div class="container">
 		<center>
-			<div id="myCarousel" class="carousel slide">
+			<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
 				<!-- 轮播（Carousel）指标 -->
 				<ol class="carousel-indicators">
 					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -61,16 +59,16 @@
 				</ol>
 				<!-- 轮播（Carousel）项目 -->
 				<div class="carousel-inner">
-					<div class="item active" style="width: 1500px">
-						<img src="img/2.png" alt="First slide">
+					<div class="item active" style="width: 680px;height: 180px" >
+						<img src="img/2.png" style="width: 680px;height: 180px" alt="First slide">
 						<div class="carousel-caption">标题 1</div>
 					</div>
-					<div class="item" style="width: 1470px">
-						<img src="img/3.png" alt="Second slide">
+					<div id="showCarousel" class="item" style="width: 680px;height: 180px">
+						<img src="img/3.png" style="width: 680px;height: 180px" alt="Second slide">
 						<div class="carousel-caption">标题 2</div>
 					</div>
-					<div class="item" style="width: 680px">
-						<img src="img/a.jpg" alt="Third slide">
+					<div class="item" style="width: 680px;height: 180px">
+						<img src="img/a.jpg"  style="width: 680px;height: 180px" alt="Third slide">
 						<div class="carousel-caption">标题 3</div>
 					</div>
 				</div>

@@ -12,11 +12,13 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-
+<style type="text/css">
+	body {background: #E8E8E8} 定义网页背景色为灰色；
+</style>
 
 </head>
 
-<body background="img/01.jpg">
+<body>
 	<!-- 导航栏 -->
 	<nav class="navbar navbar-inverse" role="navigation">
 	<div class="container-fluid">
@@ -52,6 +54,7 @@
 	<!-- 导航栏结束 -->
 
 	<div style="padding-left:20px ;padding-right:40px">
+<<<<<<< HEAD
 		<div class="row clearfix">
 			<!-- 左边类型筛选数据 -->
 			<div class="col-md-2 column "
@@ -61,6 +64,16 @@
 					<a href="MStatusTypeServlet?type_id=${tl.type_id }" ><li>${tl.material_type }</li></a>
 					</c:forEach>
 				
+=======
+		<div class="row clearfix" >
+			<div class="col-md-2 column " style="background: #FFFAFA;height: 300px">
+				<ul class="list-unstyled"
+					style="margin-left: 80px;margin-top: 100px;">
+					<li>鼠标</li>
+					<li>显示屏</li>
+					<li>主机</li>
+					<li>键盘</li>
+>>>>>>> 201762bed1dd65891c41124006a4c485e77c7bb5
 				</ul>
 			</div>
 			<!-- 左边物资删选结束 -->
@@ -200,6 +213,7 @@
 						</table>
 					</div>
 				</div>
+<<<<<<< HEAD
 				<!-- 数据显示表格结束 -->
 				<br> <br> <br> <br>
 				<!-- 分页开始 -->
@@ -225,6 +239,14 @@
 								</li>
 							</ul>
 
+=======
+				<br> <br>  
+				<div class="row clearfix na">
+					<div class="col-md-12 column"></div>
+					<center>
+						<div class="col-md-10 ">
+							<a href="#">首页</a> <a href="#">尾页</a>
+>>>>>>> 201762bed1dd65891c41124006a4c485e77c7bb5
 						</div>
 					</center>
 				</div>
@@ -232,6 +254,7 @@
 			<!-- 分页结束 -->
 		</div>
 	</div>
+<<<<<<< HEAD
 	<br>
 	<br>
 	<br>
@@ -269,6 +292,40 @@
 						<a href="http://www.merway.cn/" target="_blank">ERP条码系统</a> <a
 						href="http://www.merway.cn/" target="_blank">GJP</a> </strong>
 				</ul>
+=======
+	<br> <br> <br> <br> 
+	<!--Footer-->
+	<footer class="inner-footer" style="background: #E8E8E8;">
+		<div class="container">
+			<p class="text-muted footer-nav" style="color: #FFFFFF;">
+				<a href="" style="color: #000000;">联系我们|</a> <a href="#"
+					style="color: #000000;">|新闻中心|</a> <a href="#"
+					style="color: #000000;">|网站地图|</a> <a href="#"
+					style="color: #000000;">|站长统计|</a>
+			</p>
+			<HR style="FILTER: alpha(opacity=100,finishopacity=0,style=1)"
+				width="100%" color=#987cb9 SIZE=3>
+		</div>
+		<div class="line"></div>
+		<div class="container">
+			<div class="text-muted copyright">
+				<span style="color: #000000;"> Copyright &copy;
+					2016&nbsp;&nbsp;亚洲管家婆技术有限公司 <a href="# target="
+					_blank" style="color: #000000;">粤ICP备09131601号-3</a> </span>
+				<div class="dropdown pull-right hidden-xs hidden-sm">
+					<button style="color: #000000;width: 158px" id="dLabel" type="button" data-toggle="dropdown"
+						aria-haspopup="true" aria-expanded="false">
+						友情链接/Links<span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu" aria-labelledby="dLabel">
+						&nbsp;
+						<strong><a href="http://www.merway.cn/" target="_blank">仓库管理软件</a></br>
+								<a href="http://www.merway.cn/" target="_blank">ERP条码系统</a></br>
+								<a href="http://www.merway.cn/" target="_blank">GJP</a>
+						</strong>
+					</ul>
+				</div>
+>>>>>>> 201762bed1dd65891c41124006a4c485e77c7bb5
 			</div>
 		</div>
 	</div>

@@ -7,6 +7,8 @@
 <link rel="stylesheet" href="css/bootstrap.min.css" />
 <link rel="stylesheet" href="/Public/merway/bootstrap/css/bootstrap.css">
 <link rel="stylesheet" href="/Public/merway/public/css/style.css">
+<link href="css/style.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="js/jquery-1.7.min.js"></script>
 <!-- 
 		<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css"> -->
 <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
@@ -14,6 +16,32 @@
 	src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link rel="shortcut icon" href="/favicon.ico" />
 <title>GJP仓库管理系统</title>
+<script>
+		$(function() {
+			// 悬浮窗口
+			$(".yb_conct").hover(function() {
+				$(".yb_conct").css("right", "5px");
+				$(".yb_bar .yb_ercode").css('height', '200px');
+			}, function() {
+				$(".yb_conct").css("right", "-127px");
+				$(".yb_bar .yb_ercode").css('height', '53px');
+			});
+			// 返回顶部
+			$(".yb_top").click(function() {
+				$("html,body").animate({
+					'scrollTop': '0px'
+				}, 300)
+			});
+		});
+</script>
+<style type="text/css">
+	.l{   
+        float:left;/*左漂浮*/   
+        width:   1px;   
+        height:   660px;/*竖线高度*/   
+        background:   #000;/*填充颜色*/   
+  }
+</style>
 </head>
 <body>
 	<!--导航栏 -->
@@ -59,25 +87,26 @@
 	<!--Container-->
 	<div class="container">
 		<div class="row">
-			<div class="col-md-2 col-md-offset-1 hidden-xs hidden-sm about-1">
+			<div style="margin-left: 1px" class="col-md-2 col-md-offset-1 hidden-xs hidden-sm about-1">
 				<ul class="list-group">
-					<li class="list-group-item">
+					<li class="list-group-item" style="border:1px solid #000">
 						<h3>
 							关于我们<br> <small>About us</small>
 						</h3>
 					</li>
-					<li class="list-group-item "><a
+					<li class="list-group-item " style="border:1px solid #000"><a
 						href="/index.php/Page/list/105.html">企业简介</a></li>
-					<li class="list-group-item "><a
+					<li class="list-group-item " style="border:1px solid #000"><a
 						href="/index.php/Fzlc/list/106.html">发展历程</a></li>
-					<li class="list-group-item "><a
+					<li class="list-group-item " style="border:1px solid #000"><a
 						href="/index.php/Ruzz/list/107.html">荣誉资质</a></li>
-					<li class="list-group-item "><a
+					<li class="list-group-item " style="border:1px solid #000"><a
 						href="/index.php/Qyhj/list/108.html">企业环境</a></li>
 				</ul>
 			</div>
+			<div class="l"></div>
 			<div class="col-md-9 about-2">
-				<div class="page-header">
+				<div class="page-header" style="border-bottom: 1px solid #000">
 					<h4>
 						联系我们
 						<ol class="my-breadcrumb pull-right hidden-xs hidden-sm"></ol>
@@ -195,6 +224,21 @@
 		<a class="to-top"><i class="glyphicon glyphicon-triangle-top"></i><br>TOP</a>
 	</footer>
 	<!--/Footer-->
-
+	<!-- 浮窗 -->
+	<script src="/demos/googlegg.js"></script>
+		<div class="yb_conct" >
+		  <div class="yb_bar">
+		    <ul>
+		      <li class="yb_top">返回顶部</li>
+		      <li class="yb_phone">4008-123-456</li>
+		      <li class="yb_QQ">
+		      	<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=123456&amp;site=qq&amp;menu=yes&amp;from=message&amp;isappinstalled=0" title="即刻发送您的需求">在线咨询</a>
+		      </li>
+		      <li class="yb_ercode" style="height:53px;">微信二维码 <br>
+		        <img class="hd_qr" src="img/5.png" width="200" > </li>
+		    </ul>
+		  </div>
+		</div>
+	<!-- 浮窗结束 -->
 </body>
 </html>
