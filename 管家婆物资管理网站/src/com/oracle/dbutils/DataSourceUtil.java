@@ -26,7 +26,7 @@ public class DataSourceUtil {
 		url ="jdbc:mysql://localhost:3306/super?useUnicode=true&characterEncoding=utf-8";
 		
 		user="root";
-		pass ="mysql";
+		pass ="258369";
 		dataSource.setDriverClassName(driverName);
 		dataSource.setUrl(url);
 		dataSource.setUsername(user);
