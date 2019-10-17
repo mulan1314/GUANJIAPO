@@ -11,39 +11,10 @@
 <script type="text/javascript" src="js/jquery-1.8.3.js"></script>
 <script type="text/javascript" src="js/jquery.validate.min.js"></script>
 <script type="text/javascript" src="js/messages_zh.js"></script>
-<!-- 表单验证 -->
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-<script type="text/javascript">
-	$(function() {
-		$("#commentForm").validate({
-			rules : {
-				user_id : {
-					required : true,
-					minlength : 5,
-				},
-				user_password : {
-					required : true,
-					minlength : 3,
-				}
-			},
-			messages : {
-				user_id : {
-					required : "请输入用户名",
-					minlength : "用户名必需由五位个字母或数字组成"
-				},
-				user_password : {
-					required : "请输入密码",
-					minlength : "请输入一个正确的密码",
-
-				}
-
-			}
-		})
-
-	});
-</script>
 
 <style type="text/css">
 /*
@@ -64,7 +35,40 @@
 </style>
 
 
+<script>
 
+	$(function() {
+		// 在键盘按下并释放及提交后验证提交表单
+	$("#signupForm").validate({
+			rules : {
+
+				user_password : {
+					required : true,
+					minlength : 5
+				},
+				user_passwords : {
+					required : true,
+					minlength : 5,
+					equalTo : "#user_password"
+				},
+
+				agree : "required"
+			},
+			messages : {
+				user_password : {
+					required : "请输入密码",
+					minlength : "密码长度不能小于 5 个字母"
+				},
+				user_passwords : {
+					required : "请输入密码",
+					minlength : "密码长度不能小于 5 个字母",
+					equalTo : "两次密码输入不一致"
+				},
+
+			}
+		});
+	});
+</script>
 
 
 
@@ -82,31 +86,23 @@
 		</div>
 		<div>
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="official.html">首页</a>
-				</li>
+				<li><a href="official.html">首页</a></li>
 				<li class="dropdown"><a href="#" class="dropdown-toggle"
 					data-toggle="dropdown"> 关于 <b class="caret"></b> </a>
 					<ul class="dropdown-menu">
-						<li><a href="solve.html">企业简介</a>
-						</li>
+						<li><a href="solve.html">企业简介</a></li>
 						<li class="divider"></li>
-						<li><a href="#">发展历程</a>
-						</li>
+						<li><a href="#">发展历程</a></li>
 						<li class="divider"></li>
-						<li><a href="#">荣誉资质</a>
-						</li>
+						<li><a href="#">荣誉资质</a></li>
 						<li class="divider"></li>
-						<li><a href="#">企业环境</a>
-						</li>
-					</ul></li>
-				<li><a href="GJP.html">解决方案</a>
+						<li><a href="#">企业环境</a></li>
+					</ul>
 				</li>
-				<li><a href="technology.html">技术服务</a>
-				</li>
-				<li><a href="myhet.html">联系我们</a>
-				</li>
-				<li class="active"><a href="login.jsp">工作</a>
-				</li>
+				<li><a href="GJP.html">解决方案</a></li>
+				<li><a href="technology.html">技术服务</a></li>
+				<li><a href="myhet.html">联系我们</a></li>
+				<li class="active"><a href="login.jsp">工作</a></li>
 			</ul>
 		</div>
 	</div>
@@ -127,28 +123,27 @@
 		</div>
 
 		<div>
-			<form class="cmxform" id="commentForm" method="post" action="login">
-				<center>
-					<fieldset>
-						<p>
-							<label></label>
-						</p>
-						<p>
-							<label for="cname" style="width:50px;height: 30px">Name
-								(ID)</label> <input id="cname" name="user_id" minlength="6" type="text">
-						</p>
-						<p>
-							<label for="cpass" style="width:50px">Pass (密码)</label> <input
-								id="cpass" name="user_password" minlength="3" type="text">
-						</p>
-						<p>
-							<input class="submit" type="submit" value="登录"> <a
-								href="Forget.jsp"> <input type="button" value="修改密码" /> </a>
-						</p>
-					</fieldset>
+			<form class="cmxform" id="signupForm" method="post" action="forgets">
+			<center>
+				<fieldset>
+				
+					<p>
+						<label for="user_password" style="width:50px;height: 30px">新密码(pass)</label> <input id="user_password"
+							name="user_password" type="password">
+					</p>
+					<p>
+						<label for="user_passwords" style="width:50px;height: 30px">验证密码(pass)</label> <input
+							id="user_passwords" name="user_passwords" type="password">
+					</p>
+					<p>
+					<input class="submit" type="submit" value="修改"> 
+					<a href="login.jsp"> <input type="button" value="返回登录" /> </a>
+				</p>
+				</fieldset>
+				</center>
 			</form>
-		</div>
-	</div>
+</body>
+</div>
+</div>
 </body>
 </html>
-

@@ -18,9 +18,43 @@ public class User {
 		super();
 	}
 
+	/**
+	 * 登录
+	 * 
+	 * @param user_id
+	 * @param user_password
+	 */
+
+	public User(String user_id, String user_password) {
+		this.user_id = user_id;
+		this.user_password = user_password;
+	}
+
+	/**
+	 * 验证信息
+	 * 
+	 * @param user_id
+	 * @param user_name
+	 * @param user_phone
+	 */
+	public User(String user_id, String user_name, String user_phone) {
+		this.user_id = user_id;
+		this.user_name = user_name;
+		this.user_phone = user_phone;
+	}
+
+	/**
+	 * 设置密码
+	 * 
+	 * @param user_password
+	 */
+	public User(String user_password) {
+		this.user_password = user_password;
+	}
+
 	public User(String user_id, String user_password, String user_phone,
 			String user_email, String user_prc, String user_name) {
-		super();
+
 		this.user_id = user_id;
 		this.user_password = user_password;
 		this.user_phone = user_phone;

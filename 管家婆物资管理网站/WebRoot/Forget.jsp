@@ -15,35 +15,6 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-<script type="text/javascript">
-	$(function() {
-		$("#commentForm").validate({
-			rules : {
-				user_id : {
-					required : true,
-					minlength : 5,
-				},
-				user_password : {
-					required : true,
-					minlength : 3,
-				}
-			},
-			messages : {
-				user_id : {
-					required : "请输入用户名",
-					minlength : "用户名必需由五位个字母或数字组成"
-				},
-				user_password : {
-					required : "请输入密码",
-					minlength : "请输入一个正确的密码",
-
-				}
-
-			}
-		})
-
-	});
-</script>
 
 <style type="text/css">
 /*
@@ -64,7 +35,63 @@
 </style>
 
 
+<script type="text/javascript">
 
+//增加手机号验证规则
+ $.validator.addMethod("isMobile", function(value, element) {
+     var length = value.length;
+     var mobile = /^(13[0-9]{9})|(18[0-9]{9})|(14[0-9]{9})|(17[0-9]{9})|(15[0-9]{9})$/;
+     return this.optional(element) || (length == 11 && mobile.test(value));
+ }, "请输入正确格式");
+
+
+
+
+
+
+
+
+
+
+
+
+
+	$(function() {
+		$("#commentForm").validate({
+			rules : {
+
+				user_id : {
+					required : true,
+					minlength : 5,
+				},
+				user_name : {
+					required : true,
+					minlength : 2
+				},
+				user_phone:{
+        required:true,
+        isMobile:true,
+        }
+			},
+			messages : {
+				user_id : {
+					required : "请输入ID",
+					minlength : "请输入正确格式(5位以上)"
+				},
+				user_name : {
+					required : "请输入用户名",
+					minlength : "用户名必需由两个字母组成"
+				},
+				user_phone : {
+					required : "请输入手机号",
+					minlength : "请输入正确格式",
+				},
+
+			}
+		})
+
+	});
+</script>
 
 
 
@@ -127,23 +154,28 @@
 		</div>
 
 		<div>
-			<form class="cmxform" id="commentForm" method="post" action="login">
+			<form class="cmxform" id="commentForm" method="post" action="forget">
 				<center>
 					<fieldset>
+
 						<p>
-							<label></label>
+							<label for="user_id" style="width:50px;height: 30px">User_Id
+								(账户)</label> <input id="user_id" name="user_id" minlength="5"
+								type="text">
 						</p>
 						<p>
-							<label for="cname" style="width:50px;height: 30px">Name
-								(ID)</label> <input id="cname" name="user_id" minlength="6" type="text">
+							<label for="user_name" style="width:50px;height: 30px">Name
+								(姓名)</label> <input id="user_name" name="user_name"  minlength="2" type="text">
 						</p>
 						<p>
-							<label for="cpass" style="width:50px">Pass (密码)</label> <input
-								id="cpass" name="user_password" minlength="3" type="text">
+							<label for="user_phone" style="width:50px">Iphone (手机)</label> <input
+								id="user_phone" name="user_phone" minlength="11" type="text">
 						</p>
+
+
 						<p>
-							<input class="submit" type="submit" value="登录"> <a
-								href="Forget.jsp"> <input type="button" value="修改密码" /> </a>
+							<input class="submit" type="submit" value="验证信息"> <a
+								href="login.jsp"> <input type="button" value="返回登录" /> </a>
 						</p>
 					</fieldset>
 			</form>
@@ -151,4 +183,3 @@
 	</div>
 </body>
 </html>
-

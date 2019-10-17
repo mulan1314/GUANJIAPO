@@ -1,5 +1,6 @@
 package com.oracle.interfaces.dao;
 
+import java.sql.SQLException;
 import java.util.ArrayList;
 
 import javax.faces.component.UpdateModelException;
@@ -118,8 +119,9 @@ public interface MaterialDAOInterface {
 	 * @param status_id
 	 *            状态id
 	 * @return
+	 * @throws SQLException 
 	 */
-	public int updateMaterialStatus(int material_id, int status_id);
+	public int updateMaterialStatus(int material_id, int status_id) throws SQLException;
 
 	/**
 	 * 添加一个物资

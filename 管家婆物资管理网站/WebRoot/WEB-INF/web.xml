@@ -4,5 +4,72 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
 	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
-  <display-name></display-name>	
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.oracle.servlet.Login</servlet-class>
+  </servlet>
+
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ForgetServlet</servlet-name>
+    <servlet-class>com.oracle.servlet.ForgetServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ForgetsServlet</servlet-name>
+    <servlet-class>com.oracle.servlet.ForgetsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MaterialStatusServlet</servlet-name>
+    <servlet-class>com.oracle.servlet.MaterialStatusServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ManagePageServlet</servlet-name>
+    <servlet-class>com.oracle.servlet.ManagePageServlet</servlet-class>
+  </servlet>
+
+
+
+<filter>
+<filter-name>FiterLogin</filter-name>
+<filter-class>com.oracle.filters.FiterLogin</filter-class>
+</filter>
+<filter-mapping>
+<filter-name>FiterLogin</filter-name>
+<url-pattern>/*</url-pattern>
+</filter-mapping>
+
+<!-- 登录 -->
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  <!-- 验证信息 -->
+  <servlet-mapping>
+    <servlet-name>ForgetServlet</servlet-name>
+    <url-pattern>/forget</url-pattern>
+  </servlet-mapping>
+   <!-- 设置密码 -->
+  <servlet-mapping>
+    <servlet-name>ForgetsServlet</servlet-name>
+    <url-pattern>/forgets</url-pattern>
+  </servlet-mapping>
+  <!-- 更改物資状态 -->
+  <servlet-mapping>
+    <servlet-name>MaterialStatusServlet</servlet-name>
+    <url-pattern>/status</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ManagePageServlet</servlet-name>
+    <url-pattern>/page</url-pattern>
+  </servlet-mapping>	
 </web-app>

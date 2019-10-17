@@ -1,5 +1,6 @@
 package com.oracle.interfaces.dao;
 
+import java.sql.SQLException;
 import java.util.ArrayList;
 
 import com.oracle.entity.Record;
@@ -45,6 +46,8 @@ public interface RecordDAOInterface {
 	 * @param record
 	 *            ¼ÇÂ¼¶ÔÏó
 	 * @return
+	 * @throws SQLException 
 	 */
-	public int addRecord(Record record);
-}
+	public int addRecord(Record record) throws SQLException;
+	
+	}

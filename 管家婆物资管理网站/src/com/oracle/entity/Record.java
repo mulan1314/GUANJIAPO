@@ -19,6 +19,13 @@ public class Record {
 		super();
 	}
 
+	public Record(String user_id, String loan_time, String record_reason, int material_id) {
+		this.user_id = user_id;
+		this.loan_time = loan_time;
+		this.record_reason = record_reason;
+		this.material_id = material_id;
+	}
+
 	public Record(int record_id, int material_id, String user_id,
 			String loan_time, String return_time, String record_reason) {
 		super();

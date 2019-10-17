@@ -283,42 +283,7 @@
 		<!--分页div结束-->
 	</div>
 	<!--页面div结束-->
-	<!--Footer-->
-	<footer class="inner-footer" style="background: #000000;">
-		<div class="container">
-			<p class="text-muted footer-nav" style="color: #FFFFFF;">
-				<a href="" style="color: #FFFFFF;">联系我们|</a> <a href="#"
-					style="color: #FFFFFF;">|新闻中心|</a> <a href="#"
-					style="color: #FFFFFF;">|网站地图|</a> <a href="#"
-					style="color: #FFFFFF;">|站长统计|</a>
-			</p>
-			<HR style="FILTER: alpha(opacity=100,finishopacity=0,style=1)"
-				width="100%" color=#987cb9 SIZE=3>
-		</div>
-		<div class="line"></div>
-		<div class="container">
-			<div class="text-muted copyright">
-				<span style="color: #FFFFFF;"> Copyright &copy;
-					2016&nbsp;&nbsp;亚洲管家婆技术有限公司 <a href="# target="
-					_blank" style="color: #FFFFFF;">粤ICP备09131601号-3</a> </span>
-				<div class="dropdown pull-right hidden-xs hidden-sm">
-					<button id="dLabel" type="button" data-toggle="dropdown"
-						aria-haspopup="true" aria-expanded="false">
-						友情链接/Links <span class="caret"></span>
-					</button>
-					<ul class="dropdown-menu" aria-labelledby="dLabel">
-						&nbsp;
-						<strong><a href="http://www.merway.cn/" target="_blank">仓库管理软件</a>
-							<a href="http://www.merway.cn/" target="_blank">ERP条码系统</a> <a
-							href="http://www.merway.cn/" target="_blank">GJP</a>
-						</strong>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<a class="to-top"><i class="glyphicon glyphicon-triangle-top"></i><br>TOP</a>
-	</footer>
-	<!--/Footer-->
+	
 </body>
 
 
